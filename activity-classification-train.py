@@ -54,7 +54,7 @@ n_samples = 1000
 time_elapsed_seconds = (data[n_samples,0] - data[0,0]) / 1000
 sampling_rate = n_samples / time_elapsed_seconds
 
-# TODO: list the class labels that you collected data for in the order of label_index (defined in collect-labelled-data.py)
+# TODO: list the class labels that you collected data for in the order of label_index (defined while collecting data)
 class_names = ["sitting", "walking"] #...
 
 print("Extracting features and labels for window size {} and step size {}...".format(window_size, step_size))
